@@ -72,4 +72,4 @@ gem 'vite_rails'
 {%- if cookiecutter.ui_library == 'Tailwind' %}
 gem "tailwindcss-ruby", "~> 4.1"
 gem "tailwindcss-rails", "~> 4.4"
-{%- else %}
+{%- endif %}
