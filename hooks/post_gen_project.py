@@ -46,7 +46,7 @@ def remove_gulp_files():
 
 
 def remove_vite_files():
-    file_names = ["vite.config.js", "config/vite.json"]
+    file_names = ["vite.config.ts", "config/vite.json"]
     for file_name in file_names:
         Path(file_name).unlink()
 
