@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html <%= @html_attributes || '' %>>
+
+<head>
+<%= render 'layouts/partials/title_meta', title: @title %>
+
+<%= yield :styles %>
+
+<%= render 'layouts/partials/head_css' %>
+</head>
+
+<body <%= @body_attributes || '' %>>
+
+<%= yield %>
+
+<%= yield :scripts %>
+
+</body>
+
+</html>
