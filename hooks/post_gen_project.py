@@ -79,7 +79,7 @@ def handle_js_runner(frontend_pipeline, ui_library):
             remove_dev_deps = [
                 "@types/node",
                 "vite",
-                "vite-plugin-ruby"
+                "vite-plugin-ruby",
                 "sass",
                 "gulp-sass",
                 "gulp-uglify-es",
